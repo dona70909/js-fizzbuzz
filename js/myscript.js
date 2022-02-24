@@ -1,10 +1,10 @@
-for (let i = 0; i < 10 ; i++) {
+for (let i = 0; i < 101 ; i++) {
     
     let divElement = document.createElement("div");
     const boxContainer = document.getElementById("my-box-container");
     boxContainer.append(divElement);
 
-    boxContainer.classList.add("d-flex", "flex-wrap")
+    boxContainer.classList.add("d-flex", "flex-wrap", "gy-2", "gx-4", "justify-content-center");
     divElement.classList.add("my-box");
 
     if( (i % 3) == 0){

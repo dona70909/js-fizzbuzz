@@ -1,6 +1,17 @@
 .my-box{
-    background-color: red;
+    border: 1px solid black;
     color: black;
     height: 150px;
     width: 150px;
+}
+
+
+.my-box-green{
+    background-color: green;
+    
+}
+
+.my-box-red{
+    background-color: red;
+    
 }

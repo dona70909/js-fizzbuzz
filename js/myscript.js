@@ -1,4 +1,4 @@
-for (let i = 0; i < 16 ; i++) {
+for (let i = 0; i < 101 ; i++) {
     
     let divElement = document.createElement("div");
     const boxContainer = document.getElementById("my-box-container");

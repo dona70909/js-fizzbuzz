@@ -27,7 +27,7 @@ for (let i = 0; i < 101 ; i++) {
         divElement.innerHTML = ("fizzbuzz");
     } else {
         divElement.classList.add("my-box-black", "text-center", "text-white");
-        divElement.innerHTML = ("non sono divisibile");
+        divElement.innerHTML = ("indivisibile");
     }
 }
 

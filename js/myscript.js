@@ -4,7 +4,7 @@ for (let i = 0; i < 10 ; i++) {
     const boxContainer = document.getElementById("my-box-container");
     boxContainer.append(divElement);
 
-    boxContainer.classList.add("d-flex")
+    boxContainer.classList.add("d-flex", "flex-wrap")
     divElement.classList.add("my-box");
 
     if( (i % 3) == 0){

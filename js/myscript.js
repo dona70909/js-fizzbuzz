@@ -16,7 +16,7 @@ for (let i = 0; i < 10 ; i++) {
         
         boxContainer.append(divElement);
         divElement.classList.add("my-box-red");
-    } else{
+    } else if (( (i % 3) == 0) && ( (i % 5) == 0) ){
         boxContainer.append(divElement);
         divElement.classList.remove("my-box");
     }
